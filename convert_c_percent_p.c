@@ -27,7 +27,7 @@ unsigned int ret = 0;
 (void)prec;
 (void)len;
 
-c = va_arg(args, int)
+c = va_arg(args, int);
 
 ret += print_width(output, ret, flags, wid);
 ret += _memcpy(output, &c, 1);
